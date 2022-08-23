@@ -1,4 +1,4 @@
-# LED_Control
+# LED Control
 Android application to control LED stripes made in another [repository](https://github.com/iwlytteot/esp8266-rlc).
 
 ## Modes

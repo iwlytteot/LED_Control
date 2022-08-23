@@ -8,9 +8,9 @@ Android application to control LED stripes made in another [repository](https://
 </p>
 
 #### Static mode
-- keep the same color or just dim it
+- set a color with variable intensity
 #### Dynamic mode
-- apply transition from one RGB value to the other RGB value
+- apply transition from one RGB value to the other RGB value with variable speed of transition
 
 ## Connection settings
   <img src="https://github.com/iwlytteot/LED_Control/blob/master/img/settings.jpg" width="211">

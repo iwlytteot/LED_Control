@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pinkye"
+    tools:context=".fragments.StaticFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_preview"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="180dp"
+        android:layout_height="190dp"
+        android:backgroundTint="#FFFFFF"
+        app:cornerRadius="100000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284"
+        app:strokeColor="#000000"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/intensity_slider"
+        android:layout_width="221dp"
+        android:layout_height="5dp"
+        android:stepSize="1.0"
+        android:value="75"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        app:thumbColor="@color/light_blue_2"
+        app:tickVisible="false"
+        app:trackColor="@color/light_blue"
+        app:trackColorInactive="@color/light_blue"
+        app:trackHeight="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intensity"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_preview"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_activate"
+        android:layout_width="193dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/light_blue"
+        android:text="@string/string_activate"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intensity_slider"
+        app:layout_constraintVertical_bias="0.525" />
+</androidx.constraintlayout.widget.ConstraintLayout>

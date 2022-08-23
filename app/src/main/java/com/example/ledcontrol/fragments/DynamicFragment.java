@@ -14,9 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import com.example.ledcontrol.model.CustomFlag;
 import com.example.ledcontrol.R;
 import com.example.ledcontrol.databinding.FragmentDynamicBinding;
+import com.example.ledcontrol.model.CustomFlag;
 import com.example.ledcontrol.utils.ColorPickerBuilder;
 import com.example.ledcontrol.utils.TCPClient;
 import com.google.android.material.snackbar.Snackbar;
@@ -26,9 +26,6 @@ import com.skydoves.colorpickerview.ColorPickerView;
 import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener;
 import com.skydoves.colorpickerview.preference.ColorPickerPreferenceManager;
 
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.net.Socket;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

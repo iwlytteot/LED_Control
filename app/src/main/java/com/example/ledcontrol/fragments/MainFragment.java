@@ -12,9 +12,6 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.ledcontrol.R;
 import com.example.ledcontrol.databinding.FragmentFirstBinding;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
 public class MainFragment extends Fragment {
 
     private FragmentFirstBinding binding;

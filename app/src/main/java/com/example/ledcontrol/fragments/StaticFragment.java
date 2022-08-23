@@ -5,25 +5,18 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.graphics.ColorSpace;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.PaintDrawable;
-import android.graphics.drawable.RippleDrawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import com.example.ledcontrol.model.CustomFlag;
 import com.example.ledcontrol.R;
 import com.example.ledcontrol.databinding.FragmentStaticBinding;
+import com.example.ledcontrol.model.CustomFlag;
 import com.example.ledcontrol.utils.ColorPickerBuilder;
 import com.example.ledcontrol.utils.TCPClient;
 import com.google.android.material.snackbar.Snackbar;
@@ -33,15 +26,10 @@ import com.skydoves.colorpickerview.ColorPickerView;
 import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener;
 import com.skydoves.colorpickerview.preference.ColorPickerPreferenceManager;
 
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.lang.reflect.Field;
-import java.net.Socket;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 
 public class StaticFragment extends Fragment {
     private FragmentStaticBinding binding;

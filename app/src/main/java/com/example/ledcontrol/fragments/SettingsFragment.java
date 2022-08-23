@@ -1,9 +1,7 @@
 package com.example.ledcontrol.fragments;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.SharedPreferences;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,19 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.ledcontrol.R;
 import com.example.ledcontrol.databinding.FragmentSettingsBinding;
-import com.example.ledcontrol.databinding.FragmentStaticBinding;
 import com.google.android.material.snackbar.Snackbar;
-import com.skydoves.colorpickerview.ColorEnvelope;
-import com.skydoves.colorpickerview.ColorPickerDialog;
-import com.skydoves.colorpickerview.ColorPickerView;
-import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener;
-import com.skydoves.colorpickerview.preference.ColorPickerPreferenceManager;
 
 public class SettingsFragment extends Fragment {
     private FragmentSettingsBinding binding;

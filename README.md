@@ -4,7 +4,7 @@ Android application to control LED stripes made in another [repository](https://
 ## Modes
 <p align="left">
   <img src="https://github.com/iwlytteot/LED_Control/blob/master/img/static.jpg" width="210">
-  <img src="https://github.com/iwlytteot/LED_Control/blob/master/img/dynamic.jpg" width="211">
+  <img src="https://github.com/iwlytteot/LED_Control/blob/master/img/dynamic.jpg" width="211.3">
 </p>
 
 #### Static mode
